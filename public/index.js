@@ -53,7 +53,7 @@ io.on('connection', (socket) => {
 
   const admin = require('firebase-admin');
 
-  const serviceAccount = require('./hackster-82fa2-firebase-adminsdk-139hh-cba3809411.json'); // Replace with your actual service account key
+  const serviceAccount = require('../hackster-82fa2-firebase-adminsdk-139hh-cba3809411.json'); // Replace with your actual service account key
   admin.initializeApp({
     credential: admin.credential.cert(serviceAccount),
     databaseURL: 'https://hackster-82fa2.firebaseio.com/' // Replace with your actual Firebase Database URL
