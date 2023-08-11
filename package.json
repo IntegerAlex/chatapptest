@@ -9,5 +9,14 @@
         "mysql": "^2.18.1",
         "mysql2": "^3.6.0",
         "socket.io": "^4.7.2"
+    },
+    "scripts": {
+        "start": "node index.js",
+        "build": "echo 'No build step required for this project'",
+        "test": "echo 'No tests available for this project'",
+        "deploy": "firebase deploy"
+    },
+    "hosting": {
+        "public": "public"
     }
 }
